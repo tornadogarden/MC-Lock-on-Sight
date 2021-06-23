@@ -9,4 +9,4 @@ execute as @a[tag=can_sightlock] at @s run function sightlock:sightline/step
 execute as @a[tag=targeted,tag=!poslock,tag=!sightlock_immune] at @s run function sightlock:poslock/lock
 
 # Unlock untargeted players
-execute as @a[tag=!targeted,tag=poslock,tag=!sightlock_immune at @s run function sightlock:poslock/unlock
+execute as @a[tag=!targeted,tag=poslock,tag=!sightlock_immune] at @s run function sightlock:poslock/unlock
