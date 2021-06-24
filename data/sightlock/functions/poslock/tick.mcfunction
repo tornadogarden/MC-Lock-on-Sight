@@ -14,6 +14,3 @@ execute as @a[tag=!poslock] at @e[tag=poslock,type=area_effect_cloud] if score @
 
 # Lock players if tag is added
 execute as @a[tag=poslock] at @e[tag=poslock,type=area_effect_cloud] unless score @s posLockID = @e[tag=poslock,type=area_effect_cloud,limit=1,sort=nearest] posLockID run function poslock/lock
-
-# Kill clouds without players to lock
-execute as @e[tag=poslock,type=area_effect_cloud] at @a unless score @s posLockID = @p posLockID run kill @s
