@@ -13,5 +13,5 @@ Once ingame, type /reload <br/>
 
 To begin, pick one friend as the Survivor. <br/>
 Use the following command on the designated survivor: <br/>
-/tag (Name) add can_sightlook <br/>
+/tag (Name) add can_sightlock <br/>
 Once the tag is applied, happy hunting. <br/>
