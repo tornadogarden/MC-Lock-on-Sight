@@ -2,9 +2,9 @@
 tag @s add targeting
 
 # Lock players in sightline
-execute as @a[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run tag @s add targeted
+execute as @a[dx=0,tag=!targeting] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0,tag=!targeting] run tag @s add targeted
 # Beam effect
-execute as @a[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] as @p[tag=targeting] at @s run function sightlock:sightline/locked_on
+execute as @a[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] as @p[tag=targeting] at @s anchored eyes run function sightlock:sightline/locked_on
 
 # Take next step
 # Will not take step if wall is reached
