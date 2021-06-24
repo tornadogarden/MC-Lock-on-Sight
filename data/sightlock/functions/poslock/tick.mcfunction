@@ -5,8 +5,7 @@ execute as @a unless score @s posLockID matches 0.. run function sightlock:poslo
 execute at @a[tag=poslock] as @e[tag=poslock,type=area_effect_cloud] if score @s posLockID = @p posLockID run tp @p @s
 
 # Effects for locked players
-effect give @a[tag=poslock] levitation 2 255 true
-effect give @a[tag=poslock] glowing 2 0 true
+effect give @a[tag=poslock] glowing 1 0 true
 
 # These allow us to lock players just by tagging them.
 # Only here for redundancy's sake.
