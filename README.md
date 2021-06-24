@@ -3,7 +3,7 @@ A Minecraft datapack that allows players to lock the position of other players b
 
 ## HOW TO USE:
 
-To begin, pick one friend as the Survivor.
-Use the following command on the designated survivor:
-/tag (Name) add can_sightlook
-Once the tag is applied, happy hunting.
+To begin, pick one friend as the Survivor. <br/>
+Use the following command on the designated survivor: <br/>
+/tag (Name) add can_sightlook <br/>
+Once the tag is applied, happy hunting. <br/>
