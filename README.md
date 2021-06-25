@@ -1,3 +1,4 @@
+
 # Minecraft but you Freeze on sight
 A Minecraft datapack that allows players to lock the position of other players by looking at them.
 
