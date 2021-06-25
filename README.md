@@ -23,7 +23,7 @@ Once everything is set up, things will work like this:
 * Survivors *CAN LOCK EACH OTHER* unless they are given the `freeze_immune` tag.
 
 ### Can everyone be a Survivor?
-Yes! If everyone has the `can_sightlock` tag, they can lock one another (unless they have the `freeze_immune` tag as well).
+Yes! If everyone has the `can_freeze` tag, they can lock one another (unless they have the `freeze_immune` tag as well).
 ### Can someone be immune but *not* able to lock others?
 Yes! Give them the `freeze_immune` tag only.
 
