@@ -27,6 +27,10 @@ Yes! If everyone has the `can_sightlock` tag, they can lock one another (unless 
 ### Can someone be immune but *not* able to lock others?
 Yes! Give them the `freeze_immune` tag only.
 
+## Contribute to this datapack
+If you encounter any bugs with this datapack, please make a new pull request with a description of the error. <br/>
+If you have any suggestions to make this datapack run better, feel free to also make a new pull request with a description.
+
 ## Credits
 Some of the techniques used in this datapack by **Cloud Wolf**:<br/>
 [Movement Lock](https://www.youtube.com/watch?v=auwn5xe1BgU), [Raycasting](https://www.youtube.com/watch?v=fGlJpli5cYc)<br/>
