@@ -2,7 +2,7 @@
 A Minecraft datapack that allows players to lock the position of other players by looking at them.
 
 ## Setup:
-There are two tags that this datapack listens for: `can_sightlock` and `sightlock_immune`.<br/>
+There are two tags that this datapack listens for: `can_freeze` and `freeze_immune`.<br/>
 | Tag | Effect |
 |-----|:-----:|
 |`can_freeze`| Can lock others in place |
