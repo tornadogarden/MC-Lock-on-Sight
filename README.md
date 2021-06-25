@@ -1,6 +1,6 @@
 
 # Minecraft, but you freeze others on sight
-A Minecraft datapack that allows players to lock the position of other players by looking at them.
+A Minecraft datapack that allows players to lock the position and the facing of other players by looking at them.
 
 ## Setup:
 There are two tags that this datapack listens for: `can_freeze` and `freeze_immune`.<br/>
