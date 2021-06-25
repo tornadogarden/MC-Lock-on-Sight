@@ -9,24 +9,17 @@ There are two tags that this datapack listens for: `can_freeze` and `freeze_immu
 |`can_freeze`| Can lock others in place |
 |`freeze_immune`| Cannot be locked in place |
 
-1. Pick a friend (or a small group) as Survivors. <br/>
-2. Run this command on the Survivors: `/tag <name> add can_freeze`. <br/>
-3. Run this to make the Survivors immune to each other: `/tag <name> add freeze_immune`. <br/>
-4. Give the Survivors a goal, tell the others to stop them, and start! <br/>
-Good luck!
+1. Pick a friend (or a small group) as Freezers. <br/>
+2. Run this command on the Freezers: `/tag <name> add can_freeze`. <br/>
+3. Run this to make players immune to the freeze effect: `/tag <name> add freeze_immune`. <br/>
 
 ## Gameplay:
 Once everything is set up, things will work like this:
 
-* Anyone (who isn't immune) in the Surivor's line of sight will be frozen in place. </br> **When that happens:**
+* Anyone (who isn't immune) in the Freezer's line of sight will be frozen in place. </br> **When that happens:**
   * A trail of particles will show the Survivor's line of sight.
   * The frozen player will start glowing.
-* Survivors *CAN LOCK EACH OTHER* unless they are given the `freeze_immune` tag.
-
-### Can everyone be a Survivor?
-Yes! If everyone has the `can_freeze` tag, they can lock one another (unless they have the `freeze_immune` tag as well).
-### Can someone be immune but *not* able to lock others?
-Yes! Give them the `freeze_immune` tag only.
+* Freezers *CAN LOCK EACH OTHER* unless they are given the `freeze_immune` tag.
 
 ## Contribute to this datapack
 If you encounter any bugs with this datapack, please make a new pull request with a description of the error. <br/>
