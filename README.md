@@ -24,8 +24,8 @@ Once everything is set up, things will work like this:
 * Freezers *CAN LOCK EACH OTHER* unless they are given the `freeze_immune` tag.
 
 ## Contribute to this datapack
-If you encounter any bugs with this datapack, please make a new pull request with a description of the error. <br/>
-If you have any suggestions to make this datapack run better, feel free to also make a new pull request with a description.
+If you encounter any bugs with this datapack, please make a new issue and label it with a description of the error. <br/>
+You may also make a pull request and if accepted, you will get credit.
 
 ## Credits
 Some of the techniques used in this datapack by **Cloud Wolf**:<br/>
